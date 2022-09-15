@@ -12,7 +12,7 @@ const Footer = () => {
                             <Link to='/about'>About</Link> | <Link to='/policy'>Policy</Link> | <Link to='/contact-us'>Contact Us</Link>
                         </div>
                         <div className="bo-footer-power col-md-6 right">
-                            Powered By - <a href="https://restcountries.com/" target="_blank">Rest Countries API</a>
+                            Powered By - <a href="https://restcountries.com/" target="_blank" rel="noreferrer">Rest Countries API</a>
                         </div>
                     </div>
                 </div>
