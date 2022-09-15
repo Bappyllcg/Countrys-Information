@@ -12,14 +12,14 @@ const Footer = () => {
                             <Link to='/about'>About</Link> | <Link to='/policy'>Policy</Link> | <Link to='/contact-us'>Contact Us</Link>
                         </div>
                         <div className="bo-footer-power col-md-6 right">
-                            Powered By JK - <a href="http://www.jobaerulkaes.com/">Web &amp Apps Developer</a>
+                            Powered By - <a href="https://restcountries.com/" target="_blank">Rest Countries API</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="bo-wrap clr4">
                 <div className="bo-footer">
-                    <div className="bo-footer-copyright">&copy;2013 BangaliOnline.com All rights reserved.</div>
+                    <div className="bo-footer-copyright">&copy; 2022 | All rights reserved.</div>
                 </div>
             </div>
         </div>
