@@ -1,0 +1,29 @@
+.single-country {
+    padding: 10px 0px;
+    break-inside: avoid;
+    transition: 0.5s;
+}
+.single-country a {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(var(--sc), 0.1);
+    padding: 15px;
+    border-radius: 4px;
+    display: block;
+    box-shadow: var(--shadow);
+}
+.single-country .country-flag {
+    margin: -15px -15px 0px -15px;
+}
+.single-country .country-flag img {
+    width: 100%;
+    border-bottom: 1px solid rgba(var(--mc), 0.2);
+}
+.single-country a h2 {
+    font-size: 20px;
+    color: rgba(var(--mc));
+    margin-top: 5px;
+}
+.single-country a p {
+    color: rgba(var(--mc), 0.6);
+    font-size: 16px;
+}

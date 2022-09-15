@@ -1,5 +1,7 @@
+.all-countrys-area {
+    margin-top: 60px;
+}
 .all-country {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
+    column-count: 4;
+    gap: 20px;
 }

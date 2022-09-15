@@ -1,0 +1,11 @@
+.country-data-body ul li {
+    padding: 14px 24px;
+    background-color: rgba(var(--mc),0.1);
+}
+.country-data-body ul li:nth-child(odd) {
+    background-color: rgba(var(--mc),0.12);
+}
+.country-data-head {
+    background-color: rgba(var(--mc), 0.5);
+    margin-bottom: 40px;
+}

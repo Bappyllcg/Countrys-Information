@@ -1,0 +1,37 @@
+.footer-area {
+    margin-top: 60px;
+}
+.right {text-align: right;}
+
+.clr3 {
+    background: #3E4352;
+    color: #BDC3CF;
+    padding: 10px 0px;
+}
+.clr4 {
+    background: #636A7D;
+    color: #E3E7F2;
+    padding: 18px;
+}
+.bo-footer-power a {
+    color: #bdc3cf;
+}
+
+/*##### Footer Structure #####*/
+.bo-footer-power {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #b1c3c7;
+}
+
+.bo-footer-copyright {text-align: center; color: #BDC3CF}
+
+/*##### Footer Responsive #####*/
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+	.bo-footer-power {
+        text-align: center;
+	}
+
+}

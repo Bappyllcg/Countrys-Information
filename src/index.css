@@ -1,3 +1,10 @@
+:root {
+  --mc: 3, 4, 94;
+  /* --mc: 3, 26, 61; */
+  --sc: 164, 130, 109;
+  --tc: 247, 230, 218;
+  --shadow: 0 25px 60px #e6e5f5;
+}
 * {
   margin: 0;
   padding: 0;
@@ -9,10 +16,10 @@
 }
 body {
   font-size: 16px;
-  line-height: 1.2;
-  color: #000000;
-  background: #FFFFFF;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  line-height: 1.5;
+  color: rgba(var(--mc));
+  background: #F0F0F4;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -20,10 +27,13 @@ body {
 }
 a {
   text-decoration: none;
-  display: inline-block;
+  color: rgba(var(--mc));
 }
 a:hover {
   text-decoration: none;
+}
+p > a, li > a {
+  text-decoration: underline;
 }
 button {
   border: none;
@@ -74,14 +84,28 @@ input:focus {
       -ms-flex-align: center;
           align-items: center;
 }
-.container {
-  width: 100%;
-  max-width: 1366px;
-  margin: 0 auto;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.px-5 {
+  padding: 25px 0px;
+}
+.p-r {
+  position: relative;
+  min-height: 80vh;
+}
+.loading {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 99;
+  border-radius: 100%;
+  box-shadow: var(--shadow-medium);
 }
 

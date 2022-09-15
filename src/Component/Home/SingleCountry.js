@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './SingleCountry.css';
 
 const SingleCountry = (props) => {
     const {name, flags, region} = props.country;
