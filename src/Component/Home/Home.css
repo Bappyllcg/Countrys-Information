@@ -5,3 +5,19 @@
     column-count: 4;
     gap: 20px;
 }
+@media all and (max-width:991px){
+    .all-country {
+        column-count: 3;
+        gap: 10px;
+    }
+}
+@media all and (max-width:768px){
+    .all-country {
+        column-count: 2;
+    }
+}
+@media all and (max-width:576px){
+    .all-country {
+        column-count: 1;
+    }
+}
