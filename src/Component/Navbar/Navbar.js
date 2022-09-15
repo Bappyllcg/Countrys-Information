@@ -57,7 +57,7 @@ const Navbar = () => {
     const formatResult = (item) => {
         return (
         <>
-            <Link to={`/countrys/${item.name.common}`} style={{ display: 'block', textAlign: 'left' }} >name: {item.name.common}</Link>
+            <Link to={`/countrys/${item.name.common}`} style={{ display: 'block', textAlign: 'left' }} >{item.name.common}</Link>
         </>
         )
     }
